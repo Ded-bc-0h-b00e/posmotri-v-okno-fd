@@ -72,9 +72,6 @@ html {
     object-fit: contain;
     object-position: center;
 }
-.content__video-card-title {
-    margin-bottom: 7px;
-}
 .content__video-card-description-container {
     flex-grow: 1;
 }
@@ -106,6 +103,7 @@ html {
     font-family: "Oswald";
     font-size: 30px;
     line-height: 42px;
+    margin-bottom: 7px;
     text-transform: none;
     text-overflow: ellipsis;
 }
@@ -143,12 +141,6 @@ html {
     clip-path: inset(50%);
     white-space: nowrap;
 }
-.search-form__checkbox-list {
-    display: flex;
-    flex-wrap: nowrap;
-    flex: 1;
-    gap: 20px;
-}
 fieldset {
     border: none;
 }
@@ -177,6 +169,8 @@ fieldset {
 .search-form__checkbox-list {
     width: 212px;
     display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
     margin-top: 5px;
     gap: 10px;
     flex-direction: row;
