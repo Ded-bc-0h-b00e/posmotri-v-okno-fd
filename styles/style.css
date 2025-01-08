@@ -126,14 +126,13 @@ ol {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    max-width: 192px; 
+    max-width: 192px;
 }
 .content__list-container {
     position: relative;
     overflow-y: scroll;
     width: 399px;
     height: 298px;
-    
 }
 
 .search-form__fieldset {
