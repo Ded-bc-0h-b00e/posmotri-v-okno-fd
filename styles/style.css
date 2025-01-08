@@ -133,7 +133,9 @@ ol {
     overflow-y: scroll;
     width: 399px;
     height: 298px;
+    
 }
+
 .search-form__fieldset {
     width: 225px;
     height: 54px;
