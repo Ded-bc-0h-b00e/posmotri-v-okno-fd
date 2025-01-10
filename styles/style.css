@@ -113,6 +113,10 @@ ol {
     font-family: "Oswald";
     text-transform: uppercase;
 }
+.search-form__fieldset {
+    width: 225px;
+    height: 54px;
+}
 .content__accent {
     color: #545050;
 }
@@ -133,11 +137,6 @@ ol {
     overflow-y: scroll;
     width: 399px;
     height: 298px;
-}
-
-.search-form__fieldset {
-    width: 225px;
-    height: 54px;
 }
 .search-form__fieldset-title {
     line-height: 21.6px;
@@ -188,7 +187,7 @@ fieldset {
 }
 .search-form__textfield::placeholder {
     font-family: "Fira Sans Condensed";
-    color: transparent;
+    color: #ffffff70;
     font-size: 18px;
     line-height: 21.6px;
     font-weight: 400;
@@ -284,7 +283,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 .content__list-item:focus-visible {
     outline: 1px solid #fff;
 }
-
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
     width: 4px;
